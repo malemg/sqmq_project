@@ -11,7 +11,7 @@ Questa cartella contiene tutto il materiale relativo all’elaborazione GIS del 
   Cartella con i risultati delle analisi spaziali:
   - `matrice_distanze_definitivo.csv`: matrice delle distanze tra le chiese
   - `Risultati_NNA_Chiese.txt`: output del test di Nearest Neighbour Analysis (NNA)
-  - `README.md`: spiegazione dei file inclusi
+  
 
 ## Descrizione del progetto QGIS
 
