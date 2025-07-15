@@ -21,7 +21,7 @@ Tutti i dati, gli script e le analisi sono organizzati in ottica FAIR, con parti
 | `kepler/` | File di visualizzazione interattiva tramite Kepler.gl |
 | `qgis/` | Progetto QGIS, analisi spaziali, matrici |
 | `tutorials/` | Guide passo passo per la riproducibilità |
-| `docs/` | Materiale testuale, immagini o report |
+| `docs/` | Data Management Plan, Descrizione dettagliata del progetto |
 
 ## Fonti 
 
