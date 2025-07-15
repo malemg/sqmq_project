@@ -1,3 +1,4 @@
+theme: jekyll-theme-midnight
 title: "Side Quest - Main Quest"
-description: "Visualizzazione e analisi geospaziale delle chiese di Roma"
-theme: minima
+description: "Visualizzazione geospaziale delle chiese di Roma"
+
