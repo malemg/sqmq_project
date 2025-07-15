@@ -6,7 +6,6 @@ Questa cartella raccoglie i materiali relativi alla mappa interattiva delle chie
 
 - `VizChieseFiltered_KeplerGl.json`: configurazione esportata da Kepler.gl con layers, filtri e stili personalizzati.
 - `VizChieseFiltered_KeplerGl.png`: immagine statica della visualizzazione esportata da Kepler.gl.
-- `README.md`: questo documento.
 
 > **Nota:** Il file `.json` può essere ricaricato su Kepler.gl per replicare esattamente la visualizzazione.
 
