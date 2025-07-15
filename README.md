@@ -40,11 +40,11 @@ Tutti i dati, gli script e le analisi sono organizzati in ottica FAIR, con parti
 - [Nominatim](https://nominatim.org/)
 - [Zenodo](https://zenodo.org/)
 
-##Credits 
+## Credits 
 
 Esther Montserrat Giordano, https://orcid.org/0009-0000-3672-376X , Università di Bologna.
 
-##Licenza 
+## Licenza 
 
 Questo progetto è distribuito con licenza **[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)**.
 
