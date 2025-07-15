@@ -3,7 +3,7 @@ layout: default
 title: "Side Quest - Main Quest"
 ---
 
-# **Side Quest - Main Quest (SQMQ)**: visualizzazione e analisi geospaziale delle chiese di Roma
+# Side Quest - Main Quest (SQMQ): visualizzazione e analisi geospaziale delle chiese di Roma
 
 
 ## Indice
