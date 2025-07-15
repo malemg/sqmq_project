@@ -4,10 +4,10 @@ Questa cartella contiene tutto il materiale relativo all’elaborazione GIS del 
 
 ## Contenuto 
 
-- **progetto_SQMQ.qgz** 
+- `**progetto_SQMQ.qgz**` 
   File del progetto QGIS che contiene i layer caricati e la configurazione delle analisi spaziali (proiezioni, style, layer). 
 
-- **analisi/** 
+- `**analisi/**` 
   Cartella con i risultati delle analisi spaziali:
   - `matrice_distanze_definitivo.csv`: matrice delle distanze tra le chiese
   - `Risultati_NNA_Chiese.txt`: output del test di Nearest Neighbour Analysis (NNA)
