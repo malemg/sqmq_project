@@ -67,8 +67,8 @@ Le coordinate geografiche e le informazioni descrittive sono state ottenute tram
   - Demolita nel tempo; situata originariamente nel Foro Romano
 - **Decisione**:
   - Coordinate (`Lat` e `Long`) = `NA` (non più esistente in OSM)
-  - `Status_Attuale = demolita`
-  - `Fonte_Verifica_Parallela = Wikipedia, Wikidata`
+  - `Status_Attuale` = `demolita`
+  - `Fonte_Verifica_Parallela` = `Wikipedia, Wikidata`
 
 ## 6. Risultati e Visualizzazioni
 
