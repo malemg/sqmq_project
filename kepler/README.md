@@ -1,3 +1,5 @@
+# Cartella Kepler - SIDE QUEST MAIN QUEST (SQMQ)
+
 # Visualizzazione Interattiva delle Chiese Romane — Kepler.gl
 
 Questa cartella raccoglie i materiali relativi alla mappa interattiva delle chiese di Roma realizzata con **[Kepler.gl](https://kepler.gl/)**, uno strumento open source per l’esplorazione e la visualizzazione di dati geospaziali.
