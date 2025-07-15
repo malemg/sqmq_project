@@ -8,13 +8,13 @@
 
 ## Indice
 
-- [Sommario Esecutivo](#sommario-esecutivo)
-- [Introduzione](#introduzione)
-- [Descrizione dei dati](#descrizione-dei-dati)
-- [Documentazione e qualità dei dati](#documentazione-e-qualità-dei-dati)
-- [Backup e Archiviazione](#backup-e-archiviazione)
-- [Requisiti legali ed etici](#requisiti-legali-ed-etici)
-- [Condivisione dei dati e conservazione a lungo termine](#condivisione-dei-dati-e-conservazione-a-lungo-termine)
+- [Sommario Esecutivo](#1-sommario-esecutivo)
+- [Introduzione](#2-introduzione)
+- [Descrizione dei dati](#3-descrizione-dei-dati)
+- [Documentazione e qualità dei dati](#4-documentazione-e-qualità-dei-dati)
+- [Backup e Archiviazione](#5-backup-e-archiviazione)
+- [Requisiti legali ed etici](#6-requisiti-legali-ed-etici)
+- [Condivisione dei dati e conservazione a lungo termine](#7-condivisione-dei-dati-e-conservazione-a-lungo-termine)
 
 
 ## 1. Sommario Esecutivo
@@ -76,8 +76,11 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
 
   * **GitHub** per la collaborazione e la documentazione attiva
   * **Zenodo** per l’archiviazione accademica e la generazione di DOI
+
 * Il progetto utilizza licenza **CC BY-SA 4.0**, che permette riuso, anche commerciale, con obbligo di attribuzione e condivisione nella stessa licenza
+
 * I dati sono pubblicati con l’intento di promuovere la **replicabilità delle analisi**, l’**uso didattico** dei dati storici urbani. 
+
 * I dataset CSV principali sono distribuiti anche in versioni con il numero esplicito di release (`v1.0`) nel nome file. 
   Questa strategia assicura:
   - La stabilità e la tracciabilità della versione esatta usata nel progetto.
