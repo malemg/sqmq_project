@@ -38,7 +38,7 @@ Contiene 48 chiese con coordinate pulite, ID e altri metadati.
 
 ## Tutorial 
 
-Se vuoi replicare il lavoro da zero partendo dal CSV, segui il [Tutorial a Kepler.gl](tutorials/kepler_tutorial.md)
+Se vuoi replicare il lavoro da zero partendo dal CSV, segui il [Tutorial a Kepler.gl](../tutorials/kepler_tutorial.md)
 
 
 
