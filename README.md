@@ -11,7 +11,7 @@ Tutti i dati, gli script e le analisi sono organizzati in ottica FAIR, con parti
 - Visualizzare la distribuzione geografica delle chiese tramite **Kepler.gl**
 - Eseguire analisi statistiche (NNA, matrici di distanza) con **QGIS**
 - Pulire e strutturare i dati testuali con **Liber Office Calc**
-- Trarre considerazioni basate sui dati ottenuti (presenti nel DMP finale??)
+- Trarre considerazioni basate sui dati ottenuti 
 
 ## Struttura del progetto
 
