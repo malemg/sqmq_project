@@ -6,7 +6,6 @@ Questa cartella contiene tutto il materiale relativo all’elaborazione GIS del 
 
 - **progetto_SQMQ.qgz** 
   File del progetto QGIS che contiene i layer caricati e la configurazione delle analisi spaziali (proiezioni, style, layer). 
-_Nota_: le fa riferimento a dati esterni (CSV), non contiene i dati incorporati.
 
 - **analisi/** 
   Cartella con i risultati delle analisi spaziali:
