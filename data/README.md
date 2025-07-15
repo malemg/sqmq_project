@@ -1,6 +1,6 @@
 # Data - SIDE QUEST - MAIN QUEST 
 
-Questa cartella raccoglie i dataset utilizzati e prodotti dal progetto **SIDE QUEST – MAIN QUEST (SQMQ)**. I dati sono suddivisi per tipologia e finalità in sottocartelle dedicate, in formato aperto e secondo una logica di versionamento minimo.
+Questa cartella raccoglie i dataset utilizzati e prodotti dal progetto **SIDE QUEST – MAIN QUEST (SQMQ)**.
 
 ## Struttura
 
