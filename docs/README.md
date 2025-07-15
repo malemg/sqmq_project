@@ -3,15 +3,18 @@
 
 ## Indice
 
-1. [Introduzione](#1-introduzione) 
-2. [Obiettivi e Pianificazione](#2-obiettivi-e-pianificazione) 
-3. [Raccolta dei Dati](#3-raccolta-dei-dati) 
-4. [Metodologia di Analisi](#4-metodologia-di-analisi) 
-5. [Esempio di Ricerca](#5-esempio-di-ricerca) 
-6. [Risultati e Visualizzazioni](#6-risultati-e-visualizzazioni) 
-7. [Preservazione e Condivisione](#7-preservazione-e-condivisione) 
-8. [Licenze e Riferimenti](#8-licenze-e-riferimenti) 
-9. [Conclusioni](#9-conclusioni) 
+1. [Introduzione](#1-introduzione)  
+2. [Obiettivi e Pianificazione](#2-obiettivi-e-pianificazione)  
+3. [Raccolta dei Dati](#3-raccolta-dei-dati)  
+4. [Metodologia di Analisi](#4-metodologia-di-analisi)  
+5. [Esempio di Ricerca](#5-esempio-di-ricerca)  
+6. [Risultati e Visualizzazioni](#6-risultati-e-visualizzazioni)  
+   - [6.1 Analisi descrittiva del dataset](#61-analisi-descrittiva-del-dataset)  
+   - [6.2 Analisi spaziale: distribuzione e vicinanza](#62-analisi-spaziale-distribuzione-e-vicinanza)  
+   - [6.3 Visualizzazioni interattive](#63-visualizzazioni-interattive)  
+7. [Preservazione e Condivisione](#7-preservazione-e-condivisione)  
+8. [Licenze e Riferimenti](#8-licenze-e-riferimenti)  
+9. [Conclusioni](#9-conclusioni)  
 
 
 ## 1. Introduzione
