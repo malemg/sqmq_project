@@ -37,7 +37,7 @@ Le analisi spaziali effettuate includono:
 
 ### Tutorial 
 
-Se vuoi realizzare il lavoro da zero partendo dal CSV, segui il [Tutorial a QGIS: analisi spaziale delle chiese](tutorials/qgis_tutorial.md)
+Se vuoi realizzare il lavoro da zero partendo dal CSV, segui il [Tutorial a QGIS](../tutorials/qgis_tutorial.md)
 
 
 
