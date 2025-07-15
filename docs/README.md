@@ -66,9 +66,9 @@ Le coordinate geografiche e le informazioni descrittive sono state ottenute tram
     [Wikipedia](https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Adriano_al_Foro)
   - Demolita nel tempo; situata originariamente nel Foro Romano
 - **Decisione**:
-  - Coordinate = `NA` (non più esistente in OSM)
-  - `status = demolita`
-  - `source = Wikipedia`
+  - Coordinate (`Lat` e `Long`) = `NA` (non più esistente in OSM)
+  - `Status_Attuale = demolita`
+  - `Fonte_Verifica_Parallela = Wikipedia, Wikidata`
 
 ## 6. Risultati e Visualizzazioni
 
