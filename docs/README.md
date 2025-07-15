@@ -78,10 +78,10 @@ L’analisi è stata condotta principalmente tramite **LibreOffice Calc**, con p
 
 Su un totale di **60 chiese** registrate nella fonte di Diego Angeli:
 
-- **47 chiese risultano ancora attive** come luoghi di culto
-- **6 chiese risultano demolite**
-- **2 chiese risultano sconsacrate**
-- **5 chiese hanno status non identificato** (`Status_Attuale = NA`)
+- **47 chiese** risultano ancora **_attive_** come luoghi di culto
+- **6 chiese** risultano **_demolite_**
+- **2 chiese** risultano **_sconsacrate_**
+- **5 chiese** hanno **_status non identificato_** (`Status_Attuale` = `NA`)
 
 Informazioni secondarie:
 
