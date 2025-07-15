@@ -22,6 +22,6 @@ I tutorial sono pensati per garantire trasparenza, replicabilità e accessibilit
 
 ## Obiettivo
 
-Favorire una **riproducibilità completa** delle visualizzazioni e delle analisi, con strumenti interamente **open source** e formati **aperti** (CSV, JSON, GPKG).
+Favorire una **riproducibilità completa** delle visualizzazioni e delle analisi, con strumenti interamente **open source** e formati **aperti** (CSV, JSON).
 
 
