@@ -1,4 +1,4 @@
-# Analisi - QGIS
+# Cartella Analisi - QGIS
 
 Questa cartella contiene i risultati delle analisi spaziali effettuate sul dataset delle chiese.
 
