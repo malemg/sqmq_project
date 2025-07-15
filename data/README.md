@@ -5,7 +5,7 @@ Questa cartella raccoglie i dataset utilizzati e prodotti dal progetto **SIDE QU
 ## Struttura
 
 -[`/csv/`](/data/CSV/): 
-  Contiene i dataset tabellari principali in formato `.csv`, utilizzati per la geolocalizzazione, la visualizzazione e l'analisi. **Nota** : vedi il [README specifico](../data/CSV/README.md) per una descrizione dettagliata dei file.
+  Contiene i dataset tabellari principali in formato `.csv`, utilizzati per geolocalizzazione, visualizzazione e analisi. **Nota** : vedi il [README specifico](../data/CSV/README.md) per una descrizione dettagliata dei file.
 
 ## Note
 
