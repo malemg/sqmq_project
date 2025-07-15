@@ -40,7 +40,7 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
 * **Struttura repo**:
 
   * `/data/`: CSV e fonti grezze
-  * `/qgis/`: analisi spaziali (project file `.qgz`, output `.gpkg`, risultati NNA)
+  * `/qgis/`: analisi spaziali 
   * `/kepler/`: configurazioni e immagini interattive
   * `/docs/`: documentazione
   * `/tutorials/`: guide operative
@@ -53,12 +53,12 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
   * Eliminazione di record privi di coordinate
   * Revisione dei campi testuali
   * I campi sono normalizzati per garantire consistenza (es. status = “Attiva”, “Sconsacrata”, “Demolita”, “NA”)
-  * I file sono forniti in **formati aperti e interoperabili** (CSV, JSON, GPKG)
+  * I file sono forniti in **formati aperti e interoperabili** (CSV, JSON )
 
 ## Backup e Archiviazione
 
 * I dati sono versionati e archiviati su **GitHub**, con tracciabilità completa delle modifiche
-* Per il backup a lungo termine è previsto l’upload finale su **Zenodo**, che fornirà un DOI persistente
+* Per il backup a lungo termine è stato realizzato l'upload dei dataset versionati su [**Zenodo**](https://zenodo.org/records/15918009)
 * È stato realizzato anche un backup su pendrive usb e sul Google Drive personale
 * Tutti i file sono organizzati in sottocartelle chiare per tipo e scopo
 
