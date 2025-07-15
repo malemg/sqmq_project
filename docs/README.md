@@ -60,7 +60,7 @@ Le coordinate geografiche e le informazioni descrittive sono state ottenute tram
 ### Chiesa di S. Adriano
 
 - **Nome dalla fonte**: "Chiesa di S. Adriano"
-- **Risultati preliminari**: ambigui (più risultati online)
+- **Risultati preliminari**: nessun risultato su Nominatim
 - **Verifica**:
   - Identificata come "Chiesa di Sant'Adriano al Foro" 
     [Wikipedia](https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Adriano_al_Foro)
