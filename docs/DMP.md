@@ -8,24 +8,24 @@
 
 ## Indice
 
-- [Sommario Esecutivo](#1-sommario-esecutivo)
-- [Introduzione](#2-introduzione)
-- [Descrizione dei dati](#3-descrizione-dei-dati)
-- [Documentazione e qualità dei dati](#4-documentazione-e-qualità-dei-dati)
-- [Backup e Archiviazione](#5-backup-e-archiviazione)
-- [Requisiti legali ed etici](#6-requisiti-legali-ed-etici)
-- [Condivisione dei dati e conservazione a lungo termine](#7-condivisione-dei-dati-e-conservazione-a-lungo-termine)
+- [Sommario Esecutivo](#sommario-esecutivo)
+- [Introduzione](#introduzione)
+- [Descrizione dei dati](#descrizione-dei-dati)
+- [Documentazione e qualità dei dati](#documentazione-e-qualità-dei-dati)
+- [Backup e Archiviazione](#backup-e-archiviazione)
+- [Requisiti legali ed etici](#requisiti-legali-ed-etici)
+- [Condivisione dei dati e conservazione a lungo termine](#condivisione-dei-dati-e-conservazione-a-lungo-termine)
 
 
-## 1. Sommario Esecutivo
+## Sommario Esecutivo
 
 Questo Data Management Plan descrive le modalità di gestione, documentazione, conservazione e condivisione dei dati prodotti per il progetto **_Side Quest - Main Quest (SQMQ)_**, incentrato sulla visualizzazione e analisi geospaziale delle chiese di Roma. Il progetto aderisce ai principi **FAIR** (_Findable, Accessible, Interoperable, Reusable_) e privilegia strumenti e formati **open source**.
 
-## 2. Introduzione
+## Introduzione
 
 SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati culturali. Utilizza un dataset storico integrato con coordinate geografiche moderne per analizzare e visualizzare la distribuzione delle chiese romane, attraverso strumenti come QGIS e Kepler.gl.
 
-## 3. Descrizione dei dati
+## Descrizione dei dati
 
 * **Fonte principale**: *Diego Angeli, Le Chiese di Roma* (1922)
 * **Dati aggiuntivi**: coordinate geografiche tramite Nominatim (OpenStreetMap), arricchimenti storici da Wikipedia/Wikidata
@@ -45,7 +45,7 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
   * `/docs/`: documentazione
   * `/tutorials/`: guide operative
 
-## 4. Documentazione e qualità dei dati
+## Documentazione e qualità dei dati
 
 * Tutti i dataset sono documentati nei README delle rispettive cartelle
 * Il dataset principale è stato pulito manualmente con **LibreOffice Calc**, in particolare:
@@ -55,7 +55,7 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
   * I campi sono normalizzati per garantire consistenza (es. status = “Attiva”, “Sconsacrata”, “Demolita”, “NA”)
   * I file sono forniti in **formati aperti e interoperabili** (CSV, JSON, GPKG)
 
-## 5. Backup e Archiviazione
+## Backup e Archiviazione
 
 * I dati sono versionati e archiviati su **GitHub**, con tracciabilità completa delle modifiche
 * Per il backup a lungo termine è previsto l’upload finale su **Zenodo**, che fornirà un DOI persistente
@@ -63,14 +63,14 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
 * Tutti i file sono organizzati in sottocartelle chiare per tipo e scopo
 
 
-## 6. Requisiti legali ed etici
+## Requisiti legali ed etici
 
 * Le fonti utilizzate sono **di pubblico dominio** (Angeli 1922) o **rilasciate con licenze compatibili** (Wikipedia: CC BY-SA 4.0)
 * Le coordinate sono state ottenute da **OpenStreetMap/Nominatim**, che consente l’uso libero dei dati con attribuzione
 * Nessun dato personale o sensibile è stato incluso
 
 
-## 7. Condivisione dei dati e conservazione a lungo termine
+## Condivisione dei dati e conservazione a lungo termine
 
 * I dati saranno resi pubblici tramite:
 
