@@ -91,7 +91,7 @@ Informazioni secondarie:
 - **48 chiese presentano coordinate valide** (ottenute via OSM/Nominatim)
 - **13 chiese non hanno altri nomi noti** (`Altri_Nomi` vuoto o assente)
 - **15 chiese non hanno indicazioni di ubicazione nella fonte originale** (`Indicazioni_Ubicazione_Fonte`)
-
+- **4 chiese** non hanno il collegamento Wikidata **non è stato trovato**.
 Questi risultati evidenziano l’incompletezza parziale del testo di Angeli e la difficoltà di identificazione per alcune chiese nel contesto attuale.
 
 ### 6.2 Analisi spaziale: distribuzione e vicinanza
