@@ -39,14 +39,6 @@ Le analisi spaziali effettuate includono:
 
 Se vuoi realizzare il lavoro da zero partendo dal CSV, segui il [Tutorial a QGIS: analisi spaziale delle chiese](tutorials/qgis_tutorial.md)
 
-### Licenze 
-
-- Questo progetto utilizza **QGIS**, software GIS open source rilasciato sotto licenza **GNU General Public License v2.0**. 
-  Info: [https://qgis.org](https://qgis.org)
-
-- Salvo dove diversamente indicato, **tutti i contenuti di questa cartella** (file di progetto, analisi, risultati testuali) sono distribuiti con licenza 
-  **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** 
-  [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
 
