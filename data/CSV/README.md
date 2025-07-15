@@ -28,6 +28,7 @@ Include tutte le 60 chiese considerate nel progetto, inserite nell’ordine alfa
     * `Fonte_Verifica_Parallela`: fonte di confronto (wikipedia o wikidata) per verificare la colonna precedente
     * `Lat` : colonna che indica la coordinata geografica di _latitudine_ . L'intestazione per abbreviazione è stata onserita per essere riconosciuta facilmente dai sistemi Kepler.gl e QGIS. Il valore della coordinata è stato ricavato tramite OSM e Nominatem.
     * `Long` : colonna che indica la coordinata geografica di _longitudine_ . L'intestazione per abbreviazione è stata inserita per essere riconosciuta facilmente dai sistemi Kepler.gl e QGIS. Il valore della coordinata è stato ricavato tramite OSM e Nominatem.
+   * `WIKIDATA` : identificativo univoco della eventuale chiesa (quando disponibile) 
 
 <a name="dataset-angeli-ripulito"></a>
 ## Dataset Angeli Ripulito
@@ -53,6 +54,7 @@ Rispetto al dataset completo, questo file esclude tutte le chiese con coordinate
     * `Fonte_Verifica_Parallela`: fonte di confronto (wikipedia o wikidata) per verificare la colonna precedente
     * `Lat` : colonna che indica la coordinata geografica di _latitudine_ . L'intestazione per abbreviazione è stata onserita per essere riconosciuta facilmente dai sistemi Kepler.gl e QGIS. Il valore della coordinata è stato ricavato tramite OSM e Nominatem.
     * `Long` : colonna che indica la coordinata geografica di _longitudine_ . L'intestazione per abbreviazione è stata inserita per essere riconosciuta facilmente dai sistemi Kepler.gl e QGIS. Il valore della coordinata è stato ricavato tramite OSM e Nominatem.
+   * `WIKIDATA` : identificativo univoco della eventuale chiesa (quando disponibile) 
 
 #### Copia con versionamento esplicito:
 
