@@ -1,11 +1,11 @@
 # Dataset Tabellari
 
-## Indice
+### Indice
 1. [Dataset Angeli Completo](#dataset-angeli-completo)
 2. [Dataset Angeli Ripulito](#dataset-angeli-ripulito)
 
 <a name="dataset-angeli-completo"></a>
-### Dataset Angeli Completo
+## Dataset Angeli Completo
 
 #### Nome del file 
 `DatasetAngeli_Completo.csv`
@@ -30,7 +30,7 @@ Include tutte le 60 chiese considerate nel progetto, inserite nell’ordine alfa
     * `Long` : colonna che indica la coordinata geografica di _longitudine_ . L'intestazione per abbreviazione è stata inserita per essere riconosciuta facilmente dai sistemi Kepler.gl e QGIS. Il valore della coordinata è stato ricavato tramite OSM e Nominatem.
 
 <a name="dataset-angeli-ripulito"></a>
-### Dataset Angeli Ripulito
+## Dataset Angeli Ripulito
 
 #### Nome del file 
 `Dataset_Angeli_PuliziaCoordNA.csv`
