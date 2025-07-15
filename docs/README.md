@@ -141,9 +141,9 @@ Le visualizzazioni prodotte si trovano nelle cartelle `/qgis/` e `/kepler/` del 
 ## 7. Preservazione e Condivisione
 
 - I dati sono conservati su **GitHub**, con versionamento e documentazione
-- Il dataset sarà caricato anche su **Zenodo**, per attribuzione DOI e conservazione a lungo termine
+- Il dataset è stato caricato anche su **Zenodo**, per attribuzione DOI e conservazione a lungo termine 
 - Backup locale su drive personale e pendrive
-- I file sono organizzati per tipologia e processo (raw, pulito, QGIS, ecc.)
+- I file sono organizzati per tipologia e processo (data, docs, kepler, qgis, tutorials)
 
 
 ## 8. Licenze e Riferimenti
@@ -161,13 +161,12 @@ Le visualizzazioni prodotte si trovano nelle cartelle `/qgis/` e `/kepler/` del 
 ### Licenza del progetto
 
 > Il progetto è distribuito con licenza **CC BY-SA 4.0**. 
-> È consentito l’uso, anche commerciale, a condizione che venga mantenuta l’attribuzione e condiviso con la stessa licenza.
 
 
 ## 9. Conclusioni
 
 **SQMQ** è un progetto sperimentale che unisce ricerca storica e strumenti digitali per ricostruire, visualizzare e analizzare la distribuzione delle chiese di Roma. 
-Grazie all’uso di dati aperti e formati interoperabili, il progetto può essere facilmente **esteso, replicato e integrato** con ulteriori fonti storiche.
+Grazie all’uso di dati aperti e formati interoperabili, il progetto può essere facilmente **esteso, replicato e integrato** con ulteriori fonti storiche, analisi sui dati testuali e ulteriori analisi statistiche e geospaziali.
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
