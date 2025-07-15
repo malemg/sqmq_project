@@ -175,3 +175,16 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
 
 
+#### Nota finale
+Per rendere più leggibile e accessibile la [pagina web del progetto](https://malemg.github.io/sqmq_project/), sono stati aggiunti due file esclusivamente dedicati alla personalizzazione del tema grafico:
+
+- `docs/_config.yml`  
+- `docs/assets/css/style.scss`  
+
+Questi file **non fanno parte del progetto di analisi in sé**, ma servono unicamente a:
+- Applicare il tema visivo `midnight`
+- Migliorare l’accessibilità visiva (es. titoli colorati con buon contrasto)
+
+*Tali modifiche non influiscono sui dati, sul codice o sulla struttura metodologica del progetto SQMQ.*
+
+
