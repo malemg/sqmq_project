@@ -1,0 +1,15 @@
+RISULTATI ANALISI QGIS
+
+NEAREST NEIGHBOUR ANALYSIS
+
+Observed mean distance: 318.18956863493
+
+Expected mean distance: 352.69604545955
+
+Nearest neighbour index: 0.90216369798
+
+Number of points: 48
+
+Z-Score: -1.29673588860
+
+
