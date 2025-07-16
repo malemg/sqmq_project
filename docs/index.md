@@ -7,7 +7,7 @@ title: "Benvenut* nel progetto SQMQ!"
 
 # Benvenut* nel progetto SQMQ! 👽
 
-Proprio come in un RPG o JRPG che si rispetti, questo progetto nasce con un obiettivo principale (_Main Quest_), completamente differente dal progetto poi realizzato, che doveva essere solo una prova o una "missione secondaria" (_Side Quest_).
+Come in ogni RPG o JRPG che si rispetti, anche questo progetto è nato con una _Main_ Quest ben precisa: la marcatura del testo. Tuttavia, quella che inizialmente doveva essere soltanto una _Side Quest_ — una semplice prova — si è trasformata nella vera protagonista del lavoro: la visualizzazione e l’analisi geospaziale delle chiese presenti nella fonte di riferimento.
 
 
 
