@@ -1,7 +1,5 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-midnight
 
-sass:
-  sass_dir: assets/css
+title: "Side Quest - Main Quest"
+description: "Visualizzazione e analisi geospaziale delle chiese di Roma"
 
-include:
-  - assets/css/style.scss
