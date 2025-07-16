@@ -1,4 +1,12 @@
 theme: jekyll-theme-midnight
+sass:
+  style: compressed
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "/assets/css/style.scss"
 title: "Side Quest - Main Quest"
 description: "Visualizzazione geospaziale delle chiese di Roma"
 
