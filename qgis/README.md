@@ -4,13 +4,13 @@ Questa cartella contiene tutto il materiale relativo all’elaborazione GIS del 
 
 ## Contenuto 
 
-- `progetto_SQMQ.qgz` 
+- [`progetto_SQMQ.qgz`](/qgis/progetto_SQMQ.qgz) 
   File del progetto QGIS che contiene i layer caricati e la configurazione delle analisi spaziali (proiezioni, style, layer). 
 
-- `analisi/` 
+- [`/analisi/`](/qgis/analisi) 
   Cartella con i risultati delle analisi spaziali:
-  - `matrice_distanze_definitivo.csv`: matrice delle distanze tra le chiese
-  - `Risultati_NNA_Chiese.txt`: output del test di Nearest Neighbour Analysis (NNA)
+  - [`matrice_distanze_definitivo.csv`](/qgis/analisi/matrice_distanze_definitivo.csv): matrice delle distanze tra le chiese
+  - [`Risultati_NNA_Chiese.txt`](/qgis/analisi/Risultati_NNA_Chiese.txt): output del test di Nearest Neighbour Analysis (NNA)
   
 
 ## Descrizione del progetto QGIS
@@ -23,11 +23,11 @@ Le analisi spaziali effettuate includono:
 
 ## Come utilizzare questa cartella
 
-1. Apri il file `progetto_SQMQ.qgz` in **QGIS 3.44** (o superiore).
-2. Assicurati che il file `DatasetAngeli_PuliziaCoordNA.csv` sia disponibile nel percorso corretto (`data/CSV/` della repo).
+1. Apri il file [`progetto_SQMQ.qgz`](/qgis/progetto_SQMQ.qgz)  in **QGIS 3.44** (o superiore).
+2. Assicurati che il file [`DatasetAngeli_PuliziaCoordNA.csv`](../data/CSV/DatasetAngeli_PuliziaCoordNA.csv) sia disponibile nel percorso corretto ([`/data/CSV/`](../data/CSV) della repo).
 3. Esplora i layer, le analisi e la visualizzazione integrata nel progetto.
-4. Consulta la cartella `qgis/analisi/` per accedere ai risultati testuali o tabellari delle analisi.
-5. Per interpretazioni e contesto metodologico, fai riferimento al `README.md` principale della repo.
+4. Consulta la cartella [`qgis/analisi/`](/qgis/analisi) per accedere ai risultati testuali o tabellari delle analisi.
+5. Per interpretazioni e contesto metodologico, fai riferimento al [`README.md`](../docs/README.md) principale della repo.
 
 ## Note tecniche
 
