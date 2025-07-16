@@ -17,11 +17,11 @@ Tutti i dati, gli script e le analisi sono organizzati in ottica FAIR, con parti
 
 | Cartella | Contenuto |
 |---------|-----------|
-| `data/` | Contiene i dataset principali utilizzati per le visualizzazioni e analisi |
-| `kepler/` | File di visualizzazione interattiva tramite Kepler.gl |
-| `qgis/` | Progetto QGIS, analisi spaziali, matrici |
-| `tutorials/` | Guide passo passo per la riproducibilità |
-| `docs/` | Data Management Plan, Descrizione dettagliata del progetto |
+| [`data/`](/data/) | Contiene i dataset principali utilizzati per le visualizzazioni e analisi |
+| [`docs/`](/docs/) | Data Management Plan, descrizione dettagliata del progetto |
+| [`kepler/`](/kepler/) | File di visualizzazione interattiva tramite Kepler.gl |
+| [`qgis/`](/qgis/) | Progetto QGIS, analisi spaziali, matrici |
+| [`tutorials/`](/tutorials/) | Guide passo passo per la riproducibilità |
 
 ## Fonti 
 
@@ -42,7 +42,7 @@ Tutti i dati, gli script e le analisi sono organizzati in ottica FAIR, con parti
 
 ## Credits 
 
-Esther Montserrat Giordano, https://orcid.org/0009-0000-3672-376X , Università di Bologna.
+> Esther Montserrat Giordano, https://orcid.org/0009-0000-3672-376X , Università di Bologna.
 
 ## Licenza 
 
