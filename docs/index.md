@@ -3,9 +3,7 @@ layout: default
 title: "Benvenut* nel progetto SQMQ!"
 ---
 
-<link rel="stylesheet" href="/sqmq_project/assets/css/style.css">
-
-# Benvenut* nel progetto SQMQ! 👽
+# Benvenut* nel progetto SQMQ! 🎮
 
 Come in ogni RPG o JRPG che si rispetti, anche questo progetto è nato con una _Main_ Quest ben precisa: la marcatura del testo. Tuttavia, quella che inizialmente doveva essere soltanto una _Side Quest_ — una semplice prova — si è trasformata nella vera protagonista del lavoro: la visualizzazione e l’analisi geospaziale delle chiese presenti nella fonte di riferimento.
 
