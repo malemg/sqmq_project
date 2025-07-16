@@ -5,8 +5,19 @@ title: "Benvenut* nel progetto SQMQ!"
 
 # Benvenut* nel progetto SQMQ! 🎮
 
-Come in ogni RPG o JRPG che si rispetti, anche questo progetto è nato con una _Main_ Quest ben precisa: la marcatura del testo. Tuttavia, quella che inizialmente doveva essere soltanto una _Side Quest_ — una semplice prova — si è trasformata nella vera protagonista del lavoro: la visualizzazione e l’analisi geospaziale delle chiese presenti nella fonte di riferimento.
+All’inizio, questo progetto aveva un obiettivo ben preciso — una vera e propria *Main Quest*: la **marcatura strutturata del testo**.  
+L’intento era applicare linguaggi formali come **TEI (Text Encoding Initiative)** o **Turtle (Terse RDF Triple Language)** per descrivere e codificare in modo accurato la fonte testuale, con un focus sull’identificazione di **elementi artistici**, **toponimi** e **autori** associati alle chiese di Roma (Angeli, 1922).
 
+Come spesso accade nei giochi di ruolo, però, le *Side Quest* — pensate inizialmente come attività collaterali — finiscono per prendere il sopravvento.  
+È esattamente ciò che è successo anche qui: quella che doveva essere una prova secondaria, ovvero **la visualizzazione e l’analisi geospaziale** delle chiese citate nella fonte, è diventato il progetto vero e proprio.
+
+Il lavoro si è quindi concentrato sull’acquisizione di **coordinate geografiche**, l’integrazione con **fonti aperte** (come OpenStreetMap, Wikipedia e Wikidata), e l’uso di **strumenti GIS** (come QGIS e Kepler.gl) per condurre analisi spaziali e generare mappe statiche e interattive.
+
+> “No journey is ever truly finished. Only abandoned… or continued.”  
+> — *Final Fantasy Tactics*
+
+Se sei arrivat* fin qui, complimenti: hai appena accettato una *Side Quest* senza nemmeno saperlo! 🛡️ ⚔️
+> Nessun rimpianto: ogni missione, anche la più piccola, aggiunge esperienza al tuo percorso.
 
 
 ## Indice
@@ -177,4 +188,8 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
+
+> Congratulazioni, hai guadagnato nuovi **punti esperienza** nella comprensione storica e geospaziale!  
+_Pront* per la prossima quest?_ 🏹🗺️
+
 
