@@ -191,20 +191,22 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
 
+---
 ### MISSIONE COMPLETATA — IL FALÒ È STATO ACCESO 🔥
 
 **Ricompense ottenute:**
 
-- **+1 Frammento di _Conoscenza Storica_**
-- **+1 Artefatto di _Consapevolezza Geospaziale_**
-- **+250 EXP in _Analisi Interdisciplinare_**
-- **+1 _Fiamma dell’Anima Accademica_ accesa al falò**
+- 📚 **+1 Frammento di _Conoscenza Storica_**
+- 🗺️ **+1 Artefatto di _Consapevolezza Geospaziale_**
+- 🧠 **+250 EXP in _Analisi Interdisciplinare_**
+- 🔥 **+1 _Fiamma dell’Anima Accademica_ accesa al falò**
 
 Hai acquisito anima, saggezza e conoscenza, forgiata nella fiamma del passato e scolpita nelle mappe del tempo e dello spazio. 
 
 > “Questa Side Quest era solo l’inizio…” 
 
-_Progresso salvato presso il falò. Riposa, guerrier* e preparati alla prossima quest...⚔️🛡️_
+💾 _**Progresso salvato presso il falò.**  
+Riposa, guerrier* e preparati alla prossima quest...⚔️🛡️_
 
 
 
