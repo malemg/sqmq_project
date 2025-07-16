@@ -11,7 +11,7 @@ I tutorial sono pensati per garantire trasparenza, replicabilità e accessibilit
 | File | Descrizione |
 |------|-------------|
 | [kepler_tutorial.md](/tutorials/kepler_tutorial.md) | Guida all’uso di [Kepler.gl](https://kepler.gl/) per visualizzare e filtrare il dataset delle chiese |
-| [qgis_tutorial.md](/tutorials/kepler_tutorial.md) | Procedura dettagliata per importare i dati, eseguire analisi spaziali e salvare i risultati con [QGIS](https://qgis.org/) |
+| [qgis_tutorial.md](/tutorials/qgis_tutorial.md) | Procedura dettagliata per importare i dati, eseguire analisi spaziali e salvare i risultati con [QGIS](https://qgis.org/) |
 
 ---
 
