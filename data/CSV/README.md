@@ -76,3 +76,4 @@ Questa scelta è in linea con i **principi FAIR**, in particolare con:
 - **Interoperability** (compatibilità con altri strumenti e sistemi) 
 - **Reusability** (riutilizzo garantito e documentato) 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
