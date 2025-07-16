@@ -172,15 +172,25 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 
 
 #### Nota finale
-Per rendere più leggibile e accessibile la [pagina web del progetto](https://malemg.github.io/sqmq_project/), sono stati aggiunti due file nella cartella [`/docs`](../docs/) esclusivamente dedicati alla personalizzazione del tema grafico:
+Per rendere più leggibile e accessibile la [pagina web del progetto](https://malemg.github.io/sqmq_project/), sono stati aggiunti due file nella cartella [`/docs`](../docs/) esclusivamente dedicati alla personalizzazione del tema grafico.
+
+Questi file **non fanno parte del progetto di analisi geospaziale** in sé, ma servono unicamente a migliorarne la presentazione e l’accessibilità.
+
+### File coinvolti
 
 - `_config.yml`  
+  ↳ Imposta il tema Jekyll `midnight` e abilita l’inclusione di stili personalizzati  
 - `index.md`  
+  ↳ Serve come punto di ingresso per la pagina web  
+- `assets/css/style.scss`  
+  ↳ Contiene le modifiche ai colori dei titoli per aumentare la leggibilità
 
-Questi file **non fanno parte del progetto di analisi in sé**, ma servono unicamente a:
-- Applicare il tema visivo `midnight`
-- Migliorare l’accessibilità visiva (contrasto migliore)
+### Obiettivi delle modifiche
 
-*Tali modifiche non influiscono sui dati, sul codice o sulla struttura metodologica del progetto SQMQ.*
+- Applicare il tema visivo **Midnight**, ottimizzato per ambienti scuri
+- **Aumentare il contrasto cromatico** dei titoli e sottotitoli
+- Favorire una **visualizzazione accessibile** anche per utenti ipovedenti o daltonici
+
+Tali modifiche **non influiscono sui dati, sul codice o sulla metodologia** del progetto **SQMQ**, ma solo sulla sua presentazione su GitHub Pages.
 
 
