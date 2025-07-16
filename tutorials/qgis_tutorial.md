@@ -3,14 +3,12 @@
 Questa guida spiega come caricare i dati geografici delle chiese romane, reimpostare correttamente il sistema di riferimento, ed eseguire analisi spaziali in **QGIS** (Nearest Neighbour Analysis e Distance Matrix).
 
 
-## Requisiti
+### Dati
 
-- **Software**: [QGIS](https://qgis.org/) versione 3.x (consigliata: 3.44 Solothurn)
-- **Dati**: il file `DatasetAngeli_PuliziaCoordNA.csv` da `data/csv/`
-- **Coordinate**: ottenute con Nominatim → in gradi decimali, CRS = EPSG:4326
+- **Dati**: il file [`DatasetAngeli_PuliziaCoordNA.csv`](../data/CSV/DatasetAngeli_PuliziaCoordNA.csv)
 
 
-## 1. Crea un nuovo progetto e imposta il il sistema di riferimento (CRS)
+## Crea un nuovo progetto e imposta il il sistema di riferimento (CRS)
 
 - Vai su `File → Nuovo progetto`
 - In basso a destra, clicca sul codice CRS attuale (es. `EPSG:4326`)
@@ -18,7 +16,7 @@ Questa guida spiega come caricare i dati geografici delle chiese romane, reimpos
 - Clicca su **OK**
 
 
-## 2. Carica il file CSV con i punti delle chiese
+## Carica il file CSV con i punti delle chiese
 
 - Vai su: `Layer → Aggiungi Layer → Aggiungi layer di testo delimitato`
 - Seleziona: `DatasetAngeli_PuliziaCoordNA.csv`
@@ -36,7 +34,7 @@ Questa guida spiega come caricare i dati geografici delle chiese romane, reimpos
 I punti verranno visualizzati correttamente grazie alla trasformazione automatica tra CRS.
 
 
-## 3. Salva il layer con proiezione metrica
+## Salva il layer con proiezione metrica
 
 Per eseguire analisi spaziali, salva il layer nel sistema `EPSG:32633`:
 
@@ -50,7 +48,7 @@ Per eseguire analisi spaziali, salva il layer nel sistema `EPSG:32633`:
 Il layer è ora pronto per analisi metriche come NNA e matrici di distanza.
 
 
-## 4. Nearest Neighbour Analysis (NNA)
+## Nearest Neighbour Analysis (NNA)
 
 - Vai su `Processing → Toolbox → Nearest Neighbour Analysis`
 - **Input layer**: `chiese_proiettato.gpkg`
@@ -58,12 +56,10 @@ Il layer è ora pronto per analisi metriche come NNA e matrici di distanza.
 
 ### Nota:
 L'NNA **non viene salvata** nel file `.qgz`! 
-Salva i risultati manualmente come `.txt`, ad esempio:
-
-`qgis/analisi/risultati_nna_chiese.txt`
+Salva i risultati manualmente come `.txt`, come ad esempio: [`Risultati_NNA_Chiese.txt`](../qgis/analisi/Risultati_NNA_Chiese.txt)
 
 
-## 5. Calcola la Distance Matrix
+## Calcola la Distance Matrix
 
 - Vai su `Processing → Toolbox → Distance Matrix`
 - Parametri consigliati: 
@@ -84,15 +80,22 @@ Salva i risultati manualmente come `.txt`, ad esempio:
 
 Ora la matrice è salvata e può essere usata per ulteriori analisi (es. in Python o R).
 
-## File generati nella repo
+## File correlati nella repository
 
-- `qgis/progetto_SQMQ.qgz` → progetto completo
-- `qgis/analisi/risultati_nna_chiese.txt` → output dell'NNA
-- `qgis/analisi/matrice_distanze.csv` → matrice delle distanze tra le chiese
+- [`qgis/progetto_SQMQ.qgz`](../qgis/progetto_SQMQ.qgz) → progetto completo
+- [`qgis/analisi/risultati_nna_chiese.txt`](../qgis/analisi/risultati_nna_chiese.txt) → output dell'NNA
+- [`qgis/analisi/matrice_distanze.csv`](../qgis/analisi/matrice_distanze.csv) → matrice delle distanze tra le chiese
+
+## Requisiti
+
+- **Software**: [QGIS](https://qgis.org/) versione 3.x (consigliata: 3.44 Solothurn)
+- **Coordinate**: ottenute con Nominatim → in gradi decimali, CRS = EPSG:4326
+
+
 
 ### Extra
 
-- Puoi usare la matrice CSV per analisi successive in Python, R o fogli di calcolo
+> Puoi usare la matrice CSV per analisi successive in Python, R o fogli di calcolo
 
 
 
