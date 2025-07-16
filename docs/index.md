@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/sqmq_project/assets/css/style.scss">
+<link rel="stylesheet" href="/sqmq_project/assets/css/main.css">
 
 # SIDE QUEST - MAIN QUEST (SQMQ): visualizzazione e analisi geospaziale delle chiese di Roma
 
