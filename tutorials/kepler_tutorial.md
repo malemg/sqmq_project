@@ -5,7 +5,7 @@ Questa guida spiega come riprodurre la mappa interattiva delle chiese romane a p
 Utilizzeremo **[Kepler.gl](https://kepler.gl/)**, una potente piattaforma open-source per la visualizzazione e l'analisi di dati geospaziali, direttamente dal browser.
 
 ## Dati 
-- Il file dati da utilizzare è: [`DatasetAngeli_PuliziaCoordNA.csv`](../data/CSV/DatasetAngeli_PuliziaCoordNA.csv)-> Contiene 48 chiese di Roma, con coordinate in formato EPSG:4326 (lat/lon)
+- Il file dati da utilizzare è: [`DatasetAngeli_PuliziaCoordNA.csv`](../data/CSV/DatasetAngeli_PuliziaCoordNA.csv)-> Contiene 48 chiese di Roma, con coordinate in formato EPSG:4326
 
 ### Come ricreare la mappa
 
