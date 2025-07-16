@@ -4,11 +4,11 @@ Questa cartella contiene i risultati delle analisi spaziali effettuate sul datas
 
 ## File presenti
 
-- `matrice_distanze_definitivo.csv`
+- [`matrice_distanze_definitivo.csv`](/qgis/analisi/matrice_distanze_definitivo.csv)
   Matrice delle distanze in metri tra ogni coppia di chiese, calcolata tramite lo strumento "Distance Matrix" di QGIS con dati proiettati in EPSG:32633. 
   _Il file può essere ulteriormente analizzato con software come Python (pandas, geopandas) o R (sf, sp), anche se in questo progetto non verrà approfondito._
 
-- `Risultati_NNA_Chiese.txt`
+- [`Risultati_NNA_Chiese.txt`](/qgis/analisi/Risultati_NNA_Chiese.txt)
   Risultati del Nearest Neighbour Analysis (NNA), che valuta la distribuzione spaziale delle chiese (clusterizzata, casuale o regolare). 
 
 ## Note
