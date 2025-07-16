@@ -1,6 +1,9 @@
-<link rel="stylesheet" href="/sqmq_project/assets/css/main.css">
+---
+layout: default
+title: "Benvenut* nel progetto SQMQ!"
+---
 
-# Benvenut* nel progetto SQMQ
+# Benvenut* nel progetto SQMQ! 👽
 
 Visualizzazione e analisi geospaziale delle chiese di Roma 
 
