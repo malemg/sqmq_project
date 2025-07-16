@@ -194,8 +194,10 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 
 ### 🔥 Bonfire Lit 🔥
 
-_Il falò è stato acceso._
-Hai acquisito anima, saggezza e conoscenza, forgiata nella fiamma del passato e scolpita nelle mappe del tempo e dello spazio. 
+_Il falò è stato acceso._  
+
+Hai acquisito anima, saggezza e conoscenza, forgiata nella fiamma del passato e scolpita nelle mappe del tempo e dello spazio.  
+
 _Riposa, guerrier*, poiché la prossima sfida si nasconde nell’oscurità oltre questo falò… ⚔️🛡️_
 
 
