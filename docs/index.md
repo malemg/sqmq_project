@@ -7,7 +7,7 @@ title: "Benvenut* nel progetto SQMQ!"
 
 # Benvenut* nel progetto SQMQ! 👽
 
-Visualizzazione e analisi geospaziale delle chiese di Roma 
+Proprio come in un RPG o JRPG che si rispetti, questo progetto nasce con un obiettivo principale (_Main Quest_), completamente differente dal progetto poi realizzato, che doveva essere solo una prova o una "missione secondaria" (_Side Quest_).
 
 
 
