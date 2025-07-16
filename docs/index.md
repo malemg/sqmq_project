@@ -3,7 +3,7 @@ layout: default
 title: "Benvenut* nel progetto SQMQ!"
 ---
 
-# Benvenut* nel progetto SQMQ! 🎮
+# [Benvenut* nel progetto SQMQ! 🎮](https://github.com/malemg/sqmq_project)
 
 All’inizio, questo progetto aveva un obiettivo ben preciso — una vera e propria **_Main Quest_**: la **marcatura strutturata del testo**.  
 L’intento era applicare linguaggi formali come **TEI (Text Encoding Initiative)** o **Turtle (Terse RDF Triple Language)** per descrivere e codificare in modo accurato la fonte testuale (Angeli, 1922), con un focus sull’identificazione di **elementi artistici**, **toponimi** e **autori** associati alle chiese di Roma.
