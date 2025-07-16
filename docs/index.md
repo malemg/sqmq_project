@@ -57,11 +57,7 @@ Le coordinate geografiche e le informazioni descrittive sono state ottenute tram
 2. Ricerca delle chiese nei dataset geografici (OSM)
 3. Verifica incrociata con **Wikipedia** 
 4. Attribuzione di uno **status attuale**: `Attiva`, `Sconsacrata`, `Demolita`, `NA`
-5. Compilazione del CSV con:
-   - nome originale
-   - eventuali altri nomi
-   - coordinate (lat/lon)
-   - fonte della verifica
+5. Compilazione degli altri campi, consultabili nel seguente [README](../data/CSV/README.md)
 
 ## 5. Esempio di Ricerca
 
@@ -70,12 +66,11 @@ Le coordinate geografiche e le informazioni descrittive sono state ottenute tram
 - **Nome dalla fonte**: "Chiesa di S. Adriano"
 - **Risultati preliminari**: nessun risultato su Nominatim
 - **Verifica**:
-  - Identificata come "Chiesa di Sant'Adriano al Foro" 
-    [Wikipedia](https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Adriano_al_Foro)
+  - Identificata come ["Chiesa di Sant'Adriano al Foro"](https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Adriano_al_Foro) tramite Wikipedia
   - Demolita nel tempo; situata originariamente nel Foro Romano
 - **Decisione**:
   - Coordinate (`Lat` e `Long`) = `NA` (non più esistente in OSM)
-  - `Status_Attuale` = `demolita`
+  - `Status_Attuale` = `Demolita`
   - `Fonte_Verifica_Parallela` = `Wikipedia, Wikidata`
 
 ## 6. Risultati e Visualizzazioni
@@ -84,7 +79,7 @@ Le coordinate geografiche e le informazioni descrittive sono state ottenute tram
 
 L’analisi è stata condotta principalmente tramite **LibreOffice Calc**, con possibili estensioni future su strumenti come **OpenRefine** per la pulizia e normalizzazione avanzata.
 
-Su un totale di **60 chiese** registrate nella fonte di Diego Angeli:
+Su un totale di **60 chiese** registrate nella fonte di Diego Angeli, possiamo notare come:
 
 - **47 chiese** risultano ancora **_attive_** come luoghi di culto
 - **6 chiese** risultano **_demolite_**
@@ -94,17 +89,18 @@ Su un totale di **60 chiese** registrate nella fonte di Diego Angeli:
 Informazioni secondarie:
 
 - **12 chiese** presentano _coordinate non valide_ ovvero `NA` (ottenute via OSM/Nominatim)
-- **13 chiese** non hanno altri nomi noti (`Altri_Nomi` vuoto o assente)
+- **13 chiese** non hanno altri nomi noti (`Altri_Nomi` : `NA`)
 - **15 chiese** non hanno indicazioni di ubicazione nella fonte originale (`Indicazioni_Ubicazione_Fonte`)
-- **4 chiese** non hanno il collegamento Wikidata **non è stato trovato**.
-Questi risultati evidenziano l’incompletezza parziale del testo di Angeli e la difficoltà di identificazione per alcune chiese nel contesto attuale.
+- **4 chiese** non hanno il collegamento Wikidata: **non è stato trovato**.
+
+> Questi risultati evidenziano l’incompletezza parziale del testo di Angeli e la difficoltà dell'identificazione per alcune chiese nel contesto attuale.
 
 ### 6.2 Analisi spaziale: distribuzione e vicinanza
 
-#### Nearest Neighbor Analysis (NNA)
+- ### Nearest Neighbor Analysis (NNA)
 
-La **Nearest Neighbor Analysis** è stata condotta con **QGIS** utilizzando il plugin "NN Analysis", su un subset di 48 chiese con coordinate valide (`DatasetAngeli_PuliziaCoordNA.csv`). 
-Il file dei risultati testuali (`Risultati_NNA_Chiese.txt`) è disponibile nella cartella `/qgis/analisi/`.
+La **Nearest Neighbor Analysis** è stata condotta con **QGIS** utilizzando il plugin "NN Analysis", su un subset di 48 chiese con coordinate valide [`DatasetAngeli_PuliziaCoordNA.csv`](../data/CSV/DatasetAngeli_PuliziaCoordNA.csv). 
+Il file dei risultati testuali [`Risultati_NNA_Chiese.txt`](../qgis/analisi/Risultati_NNA_Chiese.txt) è disponibile nella cartella [`/qgis/analisi/`](../qgis/analisi/).
 
 #### Risultati dell'analisi
 
@@ -122,7 +118,7 @@ Il valore dell’indice NNI pari a **0.902** suggerisce una **leggera tendenza a
 
 Tuttavia, il valore di **Z-Score = -1.30** non supera la soglia di significatività statistica (±1.96 per *p* < 0.05), il che implica che **la tendenza osservata non è statisticamente significativa**.
 
-In altre parole, la disposizione spaziale delle chiese **potrebbe essere il risultato del caso** e non suggerisce un pattern specifico con certezza.
+> In altre parole, la disposizione spaziale delle chiese **potrebbe essere il risultato del caso** e non suggerisce un pattern specifico con certezza.
 
 #### Commento finale
 
@@ -130,26 +126,26 @@ L’analisi evidenzia una **distribuzione sostanzialmente casuale**, con una pos
 Questo risultato è coerente con una diffusione urbana non rigidamente pianificata, e potrebbe riflettere la natura storica e stratificata del tessuto urbano romano.
 
 
-#### Distance Matrix
+- ### Distance Matrix
 
-È stato generato un **file CSV della matrice delle distanze** (`matrice_distanze_definitivo.csv`) tra tutte le chiese con coordinate (metodo: distanza euclidea in metri, EPSG:3857), ma:
-**Non verrà analizzato all'interno di questo progetto**, pur restando disponibile per analisi future (es. clusterizzazione, itinerari, ecc.).
+È stato generato un [**file CSV della matrice delle distanze**](../qgis/analisi/matrice_distanze_definitivo.csv) tra tutte le chiese con coordinate (metodo: distanza euclidea in metri, EPSG:3857), ma:
+> **Non verrà analizzato all'interno di questo progetto**, pur restando disponibile per analisi future (es. clusterizzazione, itinerari, ecc.).
 
 
 ### 6.3 Visualizzazioni interattive
 
 Le chiese con coordinate valide sono state mappate con:
 
-- **QGIS**: per analisi spaziali, simbologie per status, e output statici e vettoriali (.gpkg)
-- **Kepler.gl**: per visualizzazioni dinamiche (mappa 3D, heatmap, timeline se estesa)
+- **QGIS**: per analisi spaziali, simbologie per status, e output statici e vettoriali 
+- **Kepler.gl**: per visualizzazioni dinamiche 
 
-Le visualizzazioni prodotte si trovano nelle cartelle `/qgis/` e `/kepler/` del progetto.
+Le visualizzazioni prodotte si trovano nelle cartelle [`/qgis/`](../qgis/) e [`/kepler/`](../kepler/) del progetto.
 
 
 ## 7. Preservazione e Condivisione
 
 - I dati sono conservati su **GitHub**, con versionamento e documentazione
-- Il dataset è stato caricato anche su **Zenodo**, per attribuzione DOI e conservazione a lungo termine 
+- Il dataset è stato caricato anche su [**Zenodo**](https://zenodo.org/records/15918009), per attribuzione DOI e conservazione a lungo termine 
 - Backup locale su drive personale e pendrive
 - I file sono organizzati per tipologia e processo (data, docs, kepler, qgis, tutorials)
 
@@ -168,7 +164,7 @@ Le visualizzazioni prodotte si trovano nelle cartelle `/qgis/` e `/kepler/` del 
 
 ### Licenza del progetto
 
-> Il progetto è distribuito con licenza **CC BY-SA 4.0**. 
+> Il progetto è distribuito con licenza [**CC BY-SA 4.0**](https://creativecommons.org/licenses/by-sa/4.0/deed.it). 
 
 
 ## 9. Conclusioni
@@ -180,4 +176,15 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
 
 
+#### Nota finale
+Per rendere più leggibile e accessibile la [pagina web del progetto](https://malemg.github.io/sqmq_project/), sono stati aggiunti due file nella cartella [`/docs`](../docs/) esclusivamente dedicati alla personalizzazione del tema grafico:
+
+- `_config.yml`  
+- `index.md`  
+
+Questi file **non fanno parte del progetto di analisi in sé**, ma servono unicamente a:
+- Applicare il tema visivo `midnight`
+- Migliorare l’accessibilità visiva (contrasto migliore)
+
+*Tali modifiche non influiscono sui dati, sul codice o sulla struttura metodologica del progetto SQMQ.*
 
