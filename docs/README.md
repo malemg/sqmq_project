@@ -171,26 +171,20 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
 
 
-#### Nota finale
-Per rendere più leggibile e accessibile la [pagina web del progetto](https://malemg.github.io/sqmq_project/), sono stati aggiunti due file nella cartella [`/docs`](../docs/) esclusivamente dedicati alla personalizzazione del tema grafico.
 
-Questi file **non fanno parte del progetto di analisi geospaziale** in sé, ma servono unicamente a migliorarne la presentazione e l’accessibilità.
+### Nota sulla visualizzazione della GitHub Page
+---
 
-### File coinvolti
+### Nota sulla visualizzazione della GitHub Page
 
-- `_config.yml`  
-  ↳ Imposta il tema Jekyll `midnight` e abilita l’inclusione di stili personalizzati  
-- `index.md`  
-  ↳ Serve come punto di ingresso per la pagina web  
-- `assets/css/style.scss`  
-  ↳ Contiene le modifiche ai colori dei titoli per aumentare la leggibilità
+I file `docs/index.md` e `docs/_config.yml` **non fanno parte dei contenuti del progetto SQMQ**, ma servono esclusivamente a **modificare l’aspetto grafico della pagina web pubblicata tramite GitHub Pages**.
 
-### Obiettivi delle modifiche
+In dettaglio:
 
-- Applicare il tema visivo **Midnight**, ottimizzato per ambienti scuri
-- **Aumentare il contrasto cromatico** dei titoli e sottotitoli
-- Favorire una **visualizzazione accessibile** anche per utenti ipovedenti o daltonici
+- `docs/index.md` contiene una versione visualizzabile del progetto su browser, ma è separata dal flusso di analisi dei dati.
+- `docs/_config.yml` imposta il **tema visivo** della pagina ( in questo caso il tema `midnight`).
 
-Tali modifiche **non influiscono sui dati, sul codice o sulla metodologia** del progetto **SQMQ**, ma solo sulla sua presentazione su GitHub Pages.
+> Questi file sono funzionali **solo alla resa grafica su GitHub Pages** e **non influiscono sui dati, sull’analisi geospaziale o sulla struttura scientifica del progetto**.
+
 
 
