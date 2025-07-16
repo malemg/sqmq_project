@@ -89,10 +89,11 @@ Su un totale di **60 chiese** registrate nella fonte di Diego Angeli:
 Informazioni secondarie:
 
 - **12 chiese** presentano _coordinate non valide_ ovvero `NA` (ottenute via OSM/Nominatim)
-- **13 chiese** non hanno altri nomi noti (`Altri_Nomi` vuoto o assente)
+- **13 chiese** non hanno altri nomi noti (`Altri_Nomi` : `NA`)
 - **15 chiese** non hanno indicazioni di ubicazione nella fonte originale (`Indicazioni_Ubicazione_Fonte`)
-- **4 chiese** non hanno il collegamento Wikidata **non è stato trovato**.
-Questi risultati evidenziano l’incompletezza parziale del testo di Angeli e la difficoltà di identificazione per alcune chiese nel contesto attuale.
+- **4 chiese** non hanno il collegamento Wikidata: **non è stato trovato**.
+
+> Questi risultati evidenziano l’incompletezza parziale del testo di Angeli e la difficoltà dell'identificazione per alcune chiese nel contesto attuale.
 
 ### 6.2 Analisi spaziale: distribuzione e vicinanza
 
