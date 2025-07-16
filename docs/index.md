@@ -57,7 +57,7 @@ Le coordinate geografiche e le informazioni descrittive sono state ottenute tram
 2. Ricerca delle chiese nei dataset geografici (OSM)
 3. Verifica incrociata con **Wikipedia** 
 4. Attribuzione di uno **status attuale**: `Attiva`, `Sconsacrata`, `Demolita`, `NA`
-5. Compilazione degli altri campi, consultabili nel seguente [README](../data/CSV/README.md)
+5. Compilazione degli altri campi, consultabili nel seguente [**README**](https://github.com/malemg/sqmq_project/blob/main/data/CSV/README.md)
 
 ## 5. Esempio di Ricerca
 
@@ -99,8 +99,8 @@ Informazioni secondarie:
 
 - ### Nearest Neighbor Analysis (NNA)
 
-La **Nearest Neighbor Analysis** è stata condotta con **QGIS** utilizzando il plugin "NN Analysis", su un subset di 48 chiese con coordinate valide [`DatasetAngeli_PuliziaCoordNA.csv`](../data/CSV/DatasetAngeli_PuliziaCoordNA.csv). 
-Il file dei risultati testuali [`Risultati_NNA_Chiese.txt`](../qgis/analisi/Risultati_NNA_Chiese.txt) è disponibile nella cartella [`/qgis/analisi/`](../qgis/analisi/).
+La **Nearest Neighbor Analysis** è stata condotta con **QGIS** utilizzando il plugin "NN Analysis", su un subset di 48 chiese con coordinate valide [`DatasetAngeli_PuliziaCoordNA.csv`](https://github.com/malemg/sqmq_project/blob/main/data/CSV/DatasetAngeli_PuliziaCoordNA.csv). 
+Il file dei risultati testuali [`Risultati_NNA_Chiese.txt`](https://github.com/malemg/sqmq_project/blob/main/qgis/analisi/Risultati_NNA_Chiese.txt) è disponibile nella cartella [`/qgis/analisi/`](https://github.com/malemg/sqmq_project/tree/main/qgis/analisi).
 
 #### Risultati dell'analisi
 
@@ -128,7 +128,7 @@ Questo risultato è coerente con una diffusione urbana non rigidamente pianifica
 
 - ### Distance Matrix
 
-È stato generato un [**file CSV della matrice delle distanze**](../qgis/analisi/matrice_distanze_definitivo.csv) tra tutte le chiese con coordinate (metodo: distanza euclidea in metri, EPSG:3857), ma:
+È stato generato un [**file CSV della matrice delle distanze**](https://github.com/malemg/sqmq_project/blob/main/qgis/analisi/matrice_distanze_definitivo.csv) tra tutte le chiese con coordinate (metodo: distanza euclidea in metri, EPSG:3857), ma:
 > **Non verrà analizzato all'interno di questo progetto**, pur restando disponibile per analisi future (es. clusterizzazione, itinerari, ecc.).
 
 
@@ -139,12 +139,12 @@ Le chiese con coordinate valide sono state mappate con:
 - **QGIS**: per analisi spaziali, simbologie per status, e output statici e vettoriali 
 - **Kepler.gl**: per visualizzazioni dinamiche 
 
-Le visualizzazioni prodotte si trovano nelle cartelle [`/qgis/`](../qgis/) e [`/kepler/`](../kepler/) del progetto.
+Le visualizzazioni prodotte si trovano nelle cartelle [**`/qgis/`**](https://github.com/malemg/sqmq_project/tree/main/qgis) e [**`/kepler/`**](https://github.com/malemg/sqmq_project/tree/main/kepler) del progetto.
 
 
 ## 7. Preservazione e Condivisione
 
-- I dati sono conservati su **GitHub**, con versionamento e documentazione
+- I dati sono conservati su [**GitHub**](https://github.com/malemg/sqmq_project), con versionamento e documentazione
 - Il dataset è stato caricato anche su [**Zenodo**](https://zenodo.org/records/15918009), per attribuzione DOI e conservazione a lungo termine 
 - Backup locale su drive personale e pendrive
 - I file sono organizzati per tipologia e processo (data, docs, kepler, qgis, tutorials)
@@ -164,7 +164,7 @@ Le visualizzazioni prodotte si trovano nelle cartelle [`/qgis/`](../qgis/) e [`/
 
 ### Licenza del progetto
 
-> Il progetto è distribuito con licenza [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+> Il progetto è distribuito con licenza [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
 ## 9. Conclusioni
@@ -174,17 +174,4 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
-
-
-#### Nota finale
-Per rendere più leggibile e accessibile la [pagina web del progetto](https://malemg.github.io/sqmq_project/), sono stati aggiunti due file nella cartella [`/docs`](../docs/) esclusivamente dedicati alla personalizzazione del tema grafico:
-
-- `_config.yml`  
-- `index.md`  
-
-Questi file **non fanno parte del progetto di analisi in sé**, ma servono unicamente a:
-- Applicare il tema visivo `midnight`
-- Migliorare l’accessibilità visiva (contrasto migliore)
-
-*Tali modifiche non influiscono sui dati, sul codice o sulla struttura metodologica del progetto SQMQ.*
 
