@@ -159,7 +159,7 @@ Le visualizzazioni prodotte si trovano nelle cartelle [`/qgis/`](../qgis/) e [`/
 
 ### Licenza del progetto
 
-> Il progetto è distribuito con licenza [**CC BY-SA 4.0**](https://creativecommons.org/licenses/by-sa/4.0/deed.it). 
+> Il progetto è distribuito con licenza [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
 ## 9. Conclusioni
