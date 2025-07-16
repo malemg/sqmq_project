@@ -17,8 +17,7 @@ Il lavoro si è quindi concentrato sull’acquisizione di **coordinate geografic
 > — *Sabaku no Maiku, probabilmente in uno dei suoi 112 video su un singolo boss*
 
 Se sei arrivat* fin qui, congratulazioni: hai accettato una *Side Quest dell’Anima* senza nemmeno accorgertene. ⚔️🛡️  
-In questo viaggio tra chiese dimenticate e coordinate smarrite, hai raccolto dati, ricostruito *lore*, e forse —  
-per un attimo — hai sentito la fiamma della conoscenza storica e geospaziale ardere nel tuo petto.
+In questo viaggio tra chiese dimenticate e coordinate smarrite, hai raccolto dati, ricostruito *lore*, e forse — per un attimo — hai sentito la fiamma della conoscenza storica e geospaziale ardere nel tuo petto.
 
 > E come insegna il cammino: ogni missione, anche la più secondaria, lascia un frammento d’Anima dietro di sé.
 
