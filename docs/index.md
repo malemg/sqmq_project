@@ -99,8 +99,8 @@ Informazioni secondarie:
 
 - ### Nearest Neighbor Analysis (NNA)
 
-La **Nearest Neighbor Analysis** è stata condotta con **QGIS** utilizzando il plugin "NN Analysis", su un subset di 48 chiese con coordinate valide [`DatasetAngeli_PuliziaCoordNA.csv`](https://github.com/malemg/sqmq_project/blob/main/data/CSV/DatasetAngeli_PuliziaCoordNA.csv). 
-Il file dei risultati testuali [`Risultati_NNA_Chiese.txt`](https://github.com/malemg/sqmq_project/blob/main/qgis/analisi/Risultati_NNA_Chiese.txt) è disponibile nella cartella [`/qgis/analisi/`](https://github.com/malemg/sqmq_project/tree/main/qgis/analisi).
+La **Nearest Neighbor Analysis** è stata condotta con **QGIS** utilizzando il plugin "NN Analysis", su un subset di 48 chiese con coordinate valide [DatasetAngeli_PuliziaCoordNA.csv](https://github.com/malemg/sqmq_project/blob/main/data/CSV/DatasetAngeli_PuliziaCoordNA.csv). 
+Il file dei risultati testuali [Risultati_NNA_Chiese.txt](https://github.com/malemg/sqmq_project/blob/main/qgis/analisi/Risultati_NNA_Chiese.txt) è disponibile nella cartella [/qgis/analisi/](https://github.com/malemg/sqmq_project/tree/main/qgis/analisi).
 
 #### Risultati dell'analisi
 
