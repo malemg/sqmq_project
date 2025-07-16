@@ -13,11 +13,14 @@ Come spesso accade nei giochi di ruolo, però, le **_Side Quest_** — pensate i
 
 Il lavoro si è quindi concentrato sull’acquisizione di **coordinate geografiche** ( come Nominatim, OpenStreetMap), l’integrazione con **fonti aperte** (come Wikipedia e Wikidata), e l’uso di **strumenti GIS** (come QGIS e Kepler.gl) per condurre analisi spaziali e generare mappe statiche e interattive.
 
-> “No journey is ever truly finished. Only abandoned… or continued.”  
-> — *Final Fantasy Tactics*
+> “Ogni cosa è Anima, anche questa Side Quest.”  
+> — *Sabaku no Maiku, probabilmente in uno dei suoi 112 video su un singolo boss*
 
-Se sei arrivat* fin qui, complimenti: hai appena accettato una *Side Quest* senza nemmeno saperlo! 🛡️ ⚔️
-> Nessun rimpianto: ogni missione, anche la più piccola, aggiunge esperienza al tuo percorso.
+Se sei arrivat* fin qui, congratulazioni: hai accettato una *Side Quest dell’Anima* senza nemmeno accorgertene. ⚔️🛡️  
+In questo viaggio tra chiese dimenticate e coordinate smarrite, hai raccolto dati, ricostruito *lore*, e forse —  
+per un attimo — hai sentito la fiamma della conoscenza storica e geospaziale ardere nel tuo petto.
+
+> E come insegna il cammino: ogni missione, anche la più secondaria, lascia un frammento d’Anima dietro di sé.
 
 
 ## Indice
@@ -189,7 +192,11 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
 
-> Congratulazioni, hai guadagnato nuovi **punti esperienza** nella comprensione storica e geospaziale!  
-_Pront* per la prossima quest?_ 🏹🗺️
+### 🔥 Bonfire Lit 🔥
+
+_Il falò è stato acceso._
+Hai acquisito anima, saggezza e conoscenza, forgiata nella fiamma del passato e scolpita nelle mappe del tempo e dello spazio. 
+_Riposa, guerrier*, poiché la prossima sfida si nasconde nell’oscurità oltre questo falò… ⚔️🛡️_
+
 
 
