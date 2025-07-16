@@ -1,4 +1,4 @@
-# Side Quest - Main Quest (SQMQ): visualizzazione e analisi geospaziale delle chiese di Roma
+# SIDE QUEST - MAIN QUEST (SQMQ): visualizzazione e analisi geospaziale delle chiese di Roma
 
 
 ## Indice
