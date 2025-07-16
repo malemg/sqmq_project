@@ -10,9 +10,9 @@
 ## Dataset Angeli Completo
 
 #### Nome del file 
-`DatasetAngeli_Completo.csv`
+[`DatasetAngeli_Completo.csv`](/data/CSV/DatasetAngeli_Completo.csv)
 
-**Nota**:il file `DatasetAngeli_Completo.csv` corrisponde alla versione v1.0 e rappresenta la base dati originale, utilizzata per tutte le fasi iniziali di analisi e validazione.
+**Nota**:il file [`DatasetAngeli_Completo.csv`](/data/CSV/DatasetAngeli_Completo.csv) corrisponde alla versione v1.0 e rappresenta la base dati originale, utilizzata per tutte le fasi iniziali di analisi e validazione.
 
 #### Descrizione 
 Contiene l’elenco completo delle informazioni estratte dalla fonte Angeli, con una prima verifica incrociata tramite Wikipedia.
@@ -36,9 +36,9 @@ Include tutte le 60 chiese considerate nel progetto, inserite nell’ordine alfa
 ## Dataset Angeli Ripulito
 
 #### Nome del file 
-`Dataset_Angeli_PuliziaCoordNA.csv`
+[`DatasetAngeli_PuliziaCoordNA.csv`](/data/CSV/DatasetAngeli_PuliziaCoordNA.csv)
 
-**Nota**: il file `DatasetAngeli_PuliziaCoordNA.csv` corrisponde alla versione v1.0 e rappresenta il dataset pulito per l’uso diretto in Kepler.gl e QGIS.
+**Nota**: il file [`DatasetAngeli_PuliziaCoordNA.csv`](/data/CSV/DatasetAngeli_PuliziaCoordNA.csv) corrisponde alla versione v1.0 e rappresenta il dataset pulito per l’uso diretto in Kepler.gl e QGIS.
 
 #### Descrizione 
 
@@ -60,8 +60,8 @@ Rispetto al dataset completo, questo file esclude tutte le chiese con coordinate
 
 #### Copia con versionamento esplicito:
 
-- `DatasetAngeli_Completo_v1.0.csv` 
-- `DatasetAngeli_PuliziaCoordNA_v1.0.csv` 
+- [`DatasetAngeli_Completo_v1.0.csv`](/data/CSV/DatasetAngeli_Completo_v1.0.csv)
+- [`DatasetAngeli_PuliziaCoordNA_v1.0.csv`](/data/CSV/DatasetAngeli_PuliziaCoordNA_v1.0.csv)
 
 Questi file sono **identici ai corrispettivi principali**, ma includono nel nome la versione (`v1.0`) per assicurare:
 
