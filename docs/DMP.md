@@ -3,8 +3,8 @@
 - **Progetto**: _Side Quest - Main Quest : visualizzazione e analisi geospaziale delle chiese di Roma_
 - **Corso**: DHDMCH – Digital Humanities & Digital Cultural Heritage, a.a. 2024-2025
 - **Autore**: Esther Montserrat Giordano, (https://orcid.org/0009-0000-3672-376X), Università di Bologna
-. **Licenza dei dati**: CC BY-SA 4.0
-- **Ultimo aggiornamento**: 15-07-2024
+- **Licenza dei dati**: [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+- **Ultimo aggiornamento**: 16-07-2024
 
 ## Indice
 
@@ -29,21 +29,21 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
 
 * **Fonte principale**: *Diego Angeli, Le Chiese di Roma* (1922)
 * **Dati aggiuntivi**: coordinate geografiche tramite Nominatim (OpenStreetMap), arricchimenti storici da Wikipedia/Wikidata
-* **Formato dati**: CSV (raw e pulito), GPKG, JSON, TXT
+* **Formato dati**: `.CSV`, `.JSON`, `.TXT`, `.QGZ`, `.PNG`
 * **Contenuto**:
 
   * Identificativi univoci per ogni chiesa
   * Coordinate geografiche (EPSG:4326)
-  * Status attuale delle chiese (Attiva, Demolita, Sconsacrata, NA)
-  * Metadati storici di base ( COMPILA )
+  * Status attuale delle chiese (`Attiva`, `Demolita`, `Sconsacrata`, `NA`)
+  * Metadati di base (consulta lo specifico [README](../data/CSV/README.md) per maggiori informazioni)
 
 * **Struttura repo**:
 
-  * `/data/`: CSV e fonti grezze
-  * `/qgis/`: analisi spaziali 
-  * `/kepler/`: configurazioni e immagini interattive
-  * `/docs/`: documentazione
-  * `/tutorials/`: guide operative
+  * [`/data/`](../data/): CSV e fonti grezze
+  * [`/docs/`](/docs/): documentazione
+  * [`/kepler/`](../kepler/): configurazioni e immagini interattive
+  * [`/qgis/`](../kepler/): analisi spaziali 
+  * [`/tutorials/`](../tutorials/): guide operative
 
 ## Documentazione e qualità dei dati
 
@@ -52,7 +52,7 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
 
   * Eliminazione di record privi di coordinate
   * Revisione dei campi testuali
-  * I campi sono normalizzati per garantire consistenza (es. status = “Attiva”, “Sconsacrata”, “Demolita”, “NA”)
+  * I campi sono normalizzati per garantire consistenza (es. `Status_Attuale` = `“Attiva”`, `“Sconsacrata”`, `“Demolita”`, `“NA”`)
   * I file sono forniti in **formati aperti e interoperabili** (CSV, JSON )
 
 ## Backup e Archiviazione
@@ -74,14 +74,14 @@ SQMQ nasce per esplorare l’interazione tra geografia, storia urbana e dati cul
 
 * I dati saranno resi pubblici tramite:
 
-  * **GitHub** per la collaborazione e la documentazione attiva
-  * **Zenodo** per l’archiviazione accademica e la generazione di DOI
+  * [**GitHub**](https://github.com/malemg/sqmq_project) per la collaborazione e la documentazione attiva
+  * [**Zenodo**](https://zenodo.org/records/15918009) per l’archiviazione accademica e la generazione di DOI
 
-* Il progetto utilizza licenza **CC BY-SA 4.0**, che permette riuso, anche commerciale, con obbligo di attribuzione e condivisione nella stessa licenza
+* Il progetto utilizza licenza [**CC BY-SA 4.0**](https://creativecommons.org/licenses/by-sa/4.0/deed.it), che permette riuso, anche commerciale, con obbligo di attribuzione e condivisione nella stessa licenza
 
 * I dati sono pubblicati con l’intento di promuovere la **replicabilità delle analisi**, l’**uso didattico** dei dati storici urbani. 
 
-* I dataset CSV principali sono distribuiti anche in versioni con il numero esplicito di release (`v1.0`) nel nome file. 
+* I [dataset CSV principali](../data/CSV/) sono distribuiti anche in versioni con il numero esplicito di release (`v1.0`) nel nome file. 
   Questa strategia assicura:
   - La stabilità e la tracciabilità della versione esatta usata nel progetto.
   - La possibilità di preservare e condividere versioni aggiornate senza compromettere la riproducibilità.
