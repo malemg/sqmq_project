@@ -153,9 +153,9 @@ Le visualizzazioni prodotte si trovano nelle cartelle [`/qgis/`](../qgis/) e [`/
 |----------------|-------------------|
 | QGIS           | GNU GPL v2        |
 | Kepler.gl      | MIT               |
-| OpenRefine     | BSD 3-Clause      |
 | OpenStreetMap  | ODbL              |
 | Wikipedia      | CC BY-SA 4.0      |
+| Nominatim      | Odbl              |
 
 ### Licenza del progetto
 
@@ -171,8 +171,6 @@ Grazie all’uso di dati aperti e formati interoperabili, il progetto può esser
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15918009.svg)](https://doi.org/10.5281/zenodo.15918009)
 
 
-
-### Nota sulla visualizzazione della GitHub Page
 ---
 
 ### Nota sulla visualizzazione della GitHub Page
