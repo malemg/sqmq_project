@@ -174,9 +174,9 @@ Le visualizzazioni prodotte si trovano nelle cartelle [**`/qgis/`**](https://git
 |----------------|-------------------|
 | QGIS           | GNU GPL v2        |
 | Kepler.gl      | MIT               |
-| OpenRefine     | BSD 3-Clause      |
 | OpenStreetMap  | ODbL              |
 | Wikipedia      | CC BY-SA 4.0      |
+| Nominatim      | ODbl              |
 
 ### Licenza del progetto
 
